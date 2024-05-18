@@ -1,0 +1,34 @@
+.product {
+  display: flex;
+  border-bottom: 1px solid lightblue;
+  margin-top: 5px;
+  gap: 20px;
+}
+.product img {
+  width: 250px;
+}
+.details {
+  display: flex;
+  gap: 100px;
+}
+.btn {
+  border: 1px solid gold;
+  background-color: #cc8d06;
+  padding: 3px 10px;
+  border-radius: 5px;
+  color: rgb(247, 247, 247);
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn:hover {
+  background-color: goldenrod;
+}
+.btn:active {
+  border: rgb(247, 117, 66);
+  border-style: inset;
+}
+button {
+  display: flex;
+  align-items: center;
+}

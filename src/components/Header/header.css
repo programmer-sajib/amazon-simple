@@ -1,0 +1,33 @@
+.header img {
+  height: 80px;
+}
+.header {
+  text-align: center;
+}
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  line-height: 40px;
+  font-size: 20px;
+  margin-top: 5px;
+  text-align: left;
+  padding-left: 30px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  padding: 9px;
+  transition: all ease-in-out 0.2s;
+}
+nav a:hover {
+  background-color: gray;
+}
+nav div {
+  margin-right: 30px;
+}
+nav div .cart {
+  color: white;
+}
